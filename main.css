@@ -16,9 +16,10 @@ body {
     line-height: 1.6;
     margin-top: -20px;
     margin-bottom: -20px;
-    background-image: url(http://jd-doria.com/full/logic_of_nature/logic_of_nature_12.jpg);
+    background-image: url(http://jd-doria.com/full/reflective_matter/Doria_04F_90X60.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
+
 }
 
 button {
