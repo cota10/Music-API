@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify music Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Start of Container For Movie Posters-->
+    <div class="container">
+        
+        <div class="gallery"> <!--TODO Add onclick event listener for figures-->
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/the-forever-story.jpg" alt="Stars by JID">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/melt-my-eyez.jpg" alt="Walkin Denzel Curry">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/the-forever-story.jpg" alt="Dance Now by JID">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/good-am.jpg" alt="When In Rome Mac Miller">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/ghetto-gods.jpg" alt="All Eyes On Me EARTHGANG">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/luv-4-rent.jpg" alt="No L's Smino">
+            </figure>
+
+        </div>
+        <div class="buttoncontainer">
+            <button onclick="stopSnippet()" >Stop Song</button> <!--TODO Add onclick event listener-->
+        </div>
+    </div>
+    
+</body>
+</html>
